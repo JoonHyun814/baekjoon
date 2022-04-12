@@ -1,5 +1,4 @@
 from itertools import combinations
-import queue
 
 board = [[0 if s == 'Y' else 1 for s in input()] for _ in range(5)]
 lst = list(range(5*5))
